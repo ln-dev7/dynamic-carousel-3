@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+:root {
+  font-family: "Sora", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #242424;
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.figma-background {
+  background: linear-gradient(to right, black 50%, transparent 100%);
+}
+
+.slack-background {
+  background: linear-gradient(to right, #4b0b4b 50%, transparent 100%);
+}
+
+.openai-background {
+  background: linear-gradient(to right, #191927 50%, transparent 100%);
+}
+
+.shipt-background {
+  background: linear-gradient(to right, #25cc6b 50%, transparent 100%);
+}

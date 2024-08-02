@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VITE APP / SCSS / GSAP / TAILWIND</title>
+</head>
+
+<body>
+  <div class="relative w-full h-screen overflow-hidden flex items-center justify-center" id="app">
+    <div class="flex flex-col items-center w-full z-10">
+      <div class="w-full flex justify-between items-start h-full max-w-[1080px] mx-auto py-10">
+        <div class="group relative shadow-md overflow-hidden rounded-xl w-full min-h-[395px] cursor-pointer">
+          <div class="flex items-center justify-center gap-2 absolute bottom-4 z-50 left-1/2 -translate-x-1/2">
+            <button class="h-[2px] w-8 bg-white pagination"></button>
+            <button class="h-[2px] w-8 opacity-30 bg-white pagination"></button>
+            <button class="h-[2px] w-8 opacity-30 bg-white pagination"></button>
+            <button class="h-[2px] w-8 opacity-30 bg-white pagination"></button>
+          </div>
+          <div class="image"><img src="/figma.webp" alt="figma"
+              class="w-full h-full object-cover absolute scale-105 group-hover:scale-100 duration-500 ease-in-out bg-violet-200" />
+          </div>
+          <div class="image opacity-0"><img src="/slack.webp" alt="slack"
+              class="w-full h-full object-cover absolute scale-105 group-hover:scale-100 duration-500 ease-in-out bg-orange-200" />
+          </div>
+          <div class="image opacity-0"><img src="/openai.webp" alt="openai"
+              class="w-full h-full object-cover absolute scale-105 group-hover:scale-100 duration-500 ease-in-out bg-blue-200" />
+          </div>
+          <div class="image opacity-0"><img src="/shipt.webp" alt="shipt"
+              class="w-full h-full object-cover absolute scale-105 group-hover:scale-100 duration-500 ease-in-out bg-red-200" />
+          </div>
+          <div class="z-[2] absolute w-full h-full figma-background bg-gradient"></div>
+          <div class="z-[2] absolute w-full h-full slack-background opacity-0 bg-gradient"></div>
+          <div class="z-[2] absolute w-full h-full openai-background opacity-0 bg-gradient"></div>
+          <div class="z-[2] absolute w-full h-full shipt-background opacity-0 bg-gradient"></div>
+          <div class="absolute w-full h-full flex items-center justify-start z-[3]">
+            <div class="w-full h-full flex items-center justify-between p-6 shrink-0 image-text">
+              <div class="w-1/2 flex flex-col">
+                <div class="text-white mb-6">
+                  <p class="mb-2 font-medium">“Stripe’s simplicity and product depth have been the foundation for how
+                    we’ve scaled with few people. Without integrating
+                    Stripe, I’m sure we would have needed at least five more people to handle a variety of manual
+                    processes like managing
+                    the close process, reconciling transactions between systems, keeping our AR balance in check, and
+                    troubleshooting
+                    incorrect datasets.”</p>
+                  <p>Praveer Melwani, Head of Finance</p>
+                </div>
+                <a href="https://www.lndev.me/" target="_blank"
+                  class="bg-white text-black rounded-full w-fit py-2 px-5 flex items-center gap-2">
+                  <span class="block font-medium">
+                    Read full
+                    story
+                  </span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                  </svg>
+                </a>
+              </div>
+              <div class="flex items-center justify-center w-1/2">
+                <img src="/figma-white.svg" alt="figma" class="" />
+              </div>
+            </div>
+            <div class="w-full h-full flex items-center justify-between p-6 shrink-0 image-text">
+              <div class="w-1/2 flex flex-col">
+                <div class="text-white mb-6">
+                  <p class="mb-2 font-medium">“My team has to account for millions of transactions and Stripe is our
+                    essential source of truth that keeps everything
+                    glued together. Stripe keeps the trains moving behind the scenes, especially for our self-service
+                    model that operates at
+                    global scale”</p>
+                  <p>Jonathan Gan, Head of Revenue Accounting</p>
+                </div>
+                <a href="https://www.lndev.me/" target="_blank"
+                  class="bg-white text-[#621F69] rounded-full w-fit py-2 px-5 flex items-center gap-2">
+                  <span class="block font-medium">
+                    Read full
+                    story
+                  </span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                  </svg>
+                </a>
+              </div>
+              <div class="flex items-center justify-center w-1/2">
+                <img src="/slack-white.svg" alt="figma" class="" />
+              </div>
+            </div>
+            <div class="w-full h-full flex items-center justify-between p-6 shrink-0 image-text">
+              <div class="w-1/2 flex flex-col">
+                <div class="text-white mb-6">
+                  <p class="mb-2 font-medium">“We’re excited to work with Stripe to monetise our flagship products.
+                    Beyond payments, Stripe is helping us with
+                    everything from recurring billing and tax compliance to automating our financial operations.”</p>
+                  <p>Peter Welinder, VP of Product and Partnerships</p>
+                </div>
+                <a href="https://www.lndev.me/" target="_blank"
+                  class="bg-white text-[#191927] rounded-full w-fit py-2 px-5 flex items-center gap-2">
+                  <span class="block font-medium">
+                    Read full
+                    story
+                  </span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                  </svg>
+                </a>
+              </div>
+              <div class="flex items-center justify-center w-1/2">
+                <img src="/openai-white.svg" alt="figma" class="" />
+              </div>
+            </div>
+            <div class="w-full h-full flex items-center justify-between p-6 shrink-0 image-text">
+              <div class="w-1/2 flex flex-col">
+                <div class="text-white mb-6">
+                  <p class="mb-2 font-medium">“We leveraged Stripe for the revenue recognition solution, and what used
+                    to take us eight hours…we moved to less than an
+                    hour. And we can pull a report, book our entry, do the analysis, and understand the results quickly.
+                  </p>
+                  <p>Courtney Myers, VP, Financial Controller</p>
+                </div>
+                <a href="https://www.lndev.me/" target="_blank"
+                  class="bg-white text-[#25CC6B] rounded-full w-fit py-2 px-5 flex items-center gap-2">
+                  <span class="block font-medium">
+                    Read full
+                    story
+                  </span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                  </svg>
+                </a>
+              </div>
+              <div class="flex items-center justify-center w-1/2">
+                <img src="/shipt-white.svg" alt="figma" class="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full flex justify-center items-center border-t border-dashed border-gray-200">
+        <div class="relative grid grid-cols-4 h-full w-full max-w-[1080px] mx-auto">
+          <div class="absolute w-1/4 h-[2px] bg-[#000] -top-[1px] indicator"></div>
+          <div class="relative">
+            <button class="w-full flex items-center justify-center py-8 button" data-item="0">
+              <img src="/figma.svg" alt="figma" class="" />
+            </button>
+          </div>
+          <div class="relative">
+            <button class="w-full flex items-center justify-center py-8 grayscale opacity-50 button" data-item="1">
+              <img src="/slack.svg" alt="slack" class="" />
+            </button>
+          </div>
+          <div class="relative">
+            <button class="w-full flex items-center justify-center py-8 grayscale opacity-50 button" data-item="2">
+              <img src="/openai.svg" alt="openai" class="" />
+            </button>
+          </div>
+          <div class="relative">
+            <button class="w-full flex items-center justify-center py-8 grayscale opacity-50 button" data-item="3">
+              <img src="/shipt.svg" alt="shipt" class="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="absolute w-full h-full inset-0">
+      <div class="absolute w-full h-full inset-0 px-4 py-0 pointer-events-none">
+        <div class="flex justify-between items-center h-full max-w-[1080px] mx-auto">
+          <div class="bg-gray-200 w-[1px] h-full"></div>
+          <div class="border-r border-gray-200 border-dashed h-full"></div>
+          <div class="border-r border-gray-200 border-dashed h-full"></div>
+          <div class="border-r border-gray-200 border-dashed h-full"></div>
+          <div class="bg-gray-200 w-[1px] h-full"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
